@@ -14,7 +14,7 @@ For each word in the passphrase, five rolls of a six-sided die are required. The
 
 <h2>Generating Dice Rolls</h2>
 
-`createPassphrase()` generates an unpredictable random number between 1 and 6 using the `randombytes_uniform()` function from **libsodium.js**.
+`create_passphrase()` generates an unpredictable random number between 1 and 6 using the `randombytes_uniform()` function from **libsodium.js**.
 
 The `randombytes_uniform()` function returns an unpredictable value between 0 and upper_bound (excluded). Unlike randombytes_random() % upper_bound, it guarantees a uniform distribution of the possible output values even when upper_bound is not a power of 2.
 
