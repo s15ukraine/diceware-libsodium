@@ -37,9 +37,9 @@ The script uses a [EFF's Long Wordlist](https://www.eff.org/files/2016/07/18/eff
 
   </script>
 
-  <script src="sodium.js" async></script>
-  <script src="index.js"></script>
   <script src="eff_large_wordlist.js"></script>
+  <script src="index.js"></script>
+  <script src="sodium.js" async></script>
 ```
 
 <h2>Authors</h2>
